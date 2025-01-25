@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf3e6;
+    color: #4b3621;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffdab9;
+    color: #4b3621;
+    border-bottom: 2px solid #d2691e;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.genre-list {
+    width: 25%;
+    padding: 15px;
+    background-color: #ffefd5;
+    border-right: 2px solid #d2691e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: calc(100vh - 60px);
+}
+
+.genre-list h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #8b4513;
+}
+
+.genre-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.genre-list li {
+    padding: 5px 0;
+}
+
+.genre-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.genre-list li {
+    padding: 5px 0;
+}
+
+.genre-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.genre-list li {
+    padding: 5px 0;
+}
+
+.form-section {
+    width: 75%;
+    padding: 20px;
+    position: relative;
+    background-color: #fff8dc;
+    border-radius: 8px;
+    border: 1px solid #d2b48c;
+    transition: background-color 0.3s;
+    
+}
+
+.form-section:hover {
+    background-color: #ffe4b5;
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8b4513;
+}
+
+.game-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff8dc;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #d2b48c;
+}
+
+.game-form label {
+    font-weight: bold;
+}
+
+.game-form input {
+    padding: 10px;
+    border: 1px solid #d2691e;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.game-form button {
+    padding: 10px;
+    background-color: #d2691e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.game-form button:hover {
+    background-color: #a0522d;
+}
+.background-image {
+    position: relative;
+    margin-top: 300px;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 25%;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffdab9;
+    color: #4b3621;
+    border-top: 2px solid #d2691e;
+    font-size: 12px;
+}

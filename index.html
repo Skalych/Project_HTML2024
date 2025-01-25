@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAB Game Awards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="php.php">
+</head>
+<body>
+    <header class="header">
+        <h1>WAB Game Awards</h1>
+    </header>
+    <main class="main">
+        <aside class="genre-list">
+            <h2>Dostępne gatunki</h2>
+            <ul>
+                <li>1. Shooters</li>
+                <li>2. Role-playing games</li>
+                <li>3. Strategies</li>
+                <li>4. Indies</li>
+                <li>5. Moba</li>
+                <li>6. Platformer</li>
+                <li>7. Adventures</li>
+                <li>8. Simulators</li>
+                <li>9. Sports</li>
+                <li>10. Casual</li>
+            </ul>
+        </aside>
+        <section class="form-section">
+            <h2>Prześlij grę</h2>
+            <form class="game-form" action="php.php" method="POST">
+                <label for="title">Tytuł:</label>
+                <input type="text" id="title" name="title" placeholder="Wprowadź tytuł gry" required>
+
+                <label for="genre">Gatunek (1-10):</label>
+                <input type="number" id="genre" name="genre" min="1" max="10" required>
+
+                <label for="year">Rok produkcji:</label>
+                <input type="number" id="year" name="year" placeholder="Wprowadź rok wydania" required>
+
+                <label for="rating">Ocena użytkownika:</label>
+                <input type="number" id="rating" name="rating" step="0.1" min="0" max="5" placeholder="Oceń 0-5" required>
+
+                <button type="submit">Dodać</button>
+            </form>
+            <img class="background-image" src="img/TGA_website-scaled.jpg" alt="Game-related background">
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Oleksandr Kalych, Project na zalicienie HTML2024</p>
+    </footer>
+</body>
+
+</html>
